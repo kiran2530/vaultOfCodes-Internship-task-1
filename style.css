@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 105px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-logo {
+    height: 90px;
+    width: 90px;
+    background-image: url(images/logo.png);
+    background-size: cover;
+}
+
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000000BF;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom: 1px solid transparent;
+    transition:0.5s ease;
+}
+
+#internship {
+    border-bottom: 1px solid black;
+    color: #000000;
+}
+
+.nav-menu a:hover {
+    border-bottom: 1px solid black;
+    color: #000000;
+}
+
+.nav-icons {
+    width: 65%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-icons i {
+    padding: 12px;
+    font-size: 20px;
+}
+
+/* content section design */
+
+.content {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1 {
+    font-size: 60px;
+}
+
+.content .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.content .container .box {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.297);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 0.4s ease;
+}
+
+.content .container .box:hover {
+    scale: 1.03;
+    box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.626);
+}
+
+.content .container .box h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container .box .program-info li {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 7px;
+    background-color: #007bff;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #0044ff ;
+}
+
+footer {
+    height: 430px;
+}
+
+.footer-content-top {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-content-top .content-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content-top .footer-block {
+    height: 171px;
+    width: 240px;
+}
+
+.footer-content-top .msme {
+    height: 151px;
+    width: 190px;
+    background-image: url(images/MSME-logo.png);
+    background-size: cover;
+}
+
+.footer-content-top .ncs {
+    height: 118px;
+    width: 200px;
+    background-image: url(images/NCS-Logo.png);
+    background-size: cover;
+}
+
+.footer-content-top .footer-block a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer-content-top h2 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#input {
+    width: 360px;
+    position: relative;
+}
+
+.footer-content-top #input input {
+    width: 100%;
+    padding: 15px 50px 15px 15px;
+    font-size: 18px;
+}
+
+.footer-content-top #input input:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.626);
+}
+
+.footer-content-top .mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content-top .mail i {
+    font-size: 19px;
+}
+
+#input i {
+    position: absolute;
+    right: 10px;
+    top: 16.6px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    margin-top: 60px;
+}
